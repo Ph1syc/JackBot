@@ -1,0 +1,24 @@
+html, body {
+  text-align: center;
+  width: 250px;
+  background-color: #4254f4;
+  color: #ffffff;
+  }
+
+  button {
+   font-family: 'Supria Sans Heavy';
+    src: url('./Supria-Sans-Heavy.woff') format('woff');
+    border: none;
+    background-color: #1f2937;
+    color: #ffffff;
+  }
+  
+  button:hover {
+    background-color: #435063;
+    color: #ffffff;
+  }
+
+  input[type="text"] {
+    font-family: 'Supria Sans Regular';
+    src: url('./Supria-Sans-Regular.woff') format('woff');
+  }
