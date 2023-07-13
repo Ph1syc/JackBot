@@ -1,0 +1,26 @@
+html, body {
+    align-items: center;
+    background-color: #4254f4;
+    color: #ffffff;
+    width: 632px;
+    height: 250px;
+    }
+
+.slider {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 100%;
+   height: 5px;
+   background: #ffffff;
+   opacity: 0.7;
+   -webkit-transition: .2s;
+   transition: opacity .2s;
+}
+
+ .slider::-moz-range-thumb {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  background: #0a1420;
+  cursor: pointer;
+}

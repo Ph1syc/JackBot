@@ -7,14 +7,25 @@
     "48": "icons/border-48.png",
     "96": "icons/border-96.png"
   },
+  
+  "options_ui": {
+    "page": "./settings/options.html"
+  },
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
 
   "browser_action": {
     "default_icon": "icons/border-48.png",
     "default_title": "Find Jackbox servers",
     "default_popup": "popup/jackbot.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yoavkom@proton.me"
+    }
   }
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="options.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <form>
+      <br></br>
+      <br></br>
+      <b>How many codes do you want to try?</b>
+      <br></br>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="200" value="20" class="slider" id="repeats">
+      </div>
+      <br></br>
+      <button type="submit">Save</button>
+    </form>
+    <input type="text" id="repeats" size="33" readonly>
+  <script>
+    let banana = repeats
+    document.getElementById("banana").innerHTML = tries;
+  </script>
+
+
+    <script src="options.js"></script>
+  </body>
+</html>
